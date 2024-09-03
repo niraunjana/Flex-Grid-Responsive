@@ -1,0 +1,329 @@
+/* General Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Header Styles */
+header {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+/* Hero Styles */
+.hero {
+    background-color: #eee;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* About Styles */
+.about {
+    padding: 40px 0;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.member {
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.member h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.member p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+/* Our Management Styles */
+.our-management {
+    padding: 40px 0;
+}
+
+.our-management p {
+    text-align: left;
+}
+
+/* Services Styles */
+.services {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.service i {
+    font-size: 30px;
+    color: #007bff;
+    margin-right: 15px;
+}
+
+.service h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Skills Styles */
+.skills {
+    padding: 40px 0;
+}
+
+.skill-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.skill {
+    width: 250px;
+    margin: 10px;
+    text-align: left;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.skill p {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.progress {
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.bar {
+    height: 100%;
+    background-color: #007bff;
+    transition: width 0.3s;
+}
+
+/* Portfolio Styles */
+.portfolio {
+    padding: 40px 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.image {
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.image p {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+/* Contact Styles */
+.contact {
+    padding: 40px 0;
+}
+
+.map {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 100px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-media {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.social-media li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.social-media a {
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #007bff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .team {
+        flex-direction: column;
+    }
+
+    .member {
+        width: 100%;
+    }
+
+    .gallery {
+        flex-direction: column;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .skill-bar {
+        flex-direction: column;
+    }
+
+    .skill {
+        width: 100%;
+    }
+}
